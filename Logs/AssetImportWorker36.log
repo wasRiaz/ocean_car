@@ -1,0 +1,1134 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8055 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker36
+-projectPath
+C:/Client Project Demo/My project
+-logFile
+Logs/AssetImportWorker36.log
+-srvPort
+58238
+Successfully changed project path to: C:/Client Project Demo/My project
+C:/Client Project Demo/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16760] Host "[IP] 192.168.100.21 [Port] 0 [Flags] 2 [Guid] 2270139946 [EditorId] 2270139946 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FESGI3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16760] Host "[IP] 192.168.100.21 [Port] 0 [Flags] 2 [Guid] 2270139946 [EditorId] 2270139946 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FESGI3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 352.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Client Project Demo/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.4358
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011245 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 265.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1598ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1156ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (266ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.023573 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6336ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (5805ms)
+			LoadAssemblies (633ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (4180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (1306ms)
+				ProcessInitializeOnLoadMethodAttributes (2614ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4174 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 39 unused Assets / (30.1 KB). Loaded Objects now: 4671.
+Memory consumption went from 170.1 MB to 170.0 MB.
+Total: 12.884400 ms (FindLiveObjects: 1.005500 ms CreateObjectMapping: 0.773100 ms MarkObjects: 10.776500 ms  DeleteObjects: 0.326800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 265357.443161 seconds.
+  path: Assets/LYNC-OKX-SDK/FetchWallet.cs
+  artifactKey: Guid(f486060ffb3f6410bbaa0c454cb60099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/FetchWallet.cs using Guid(f486060ffb3f6410bbaa0c454cb60099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e633773d112f58d08ba8b6900587025') in 0.092530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity using Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975347c638a868df8dac7a46156628ce') in 0.028457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity
+  artifactKey: Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity using Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5caa91967b5a9aaca5497ced2591a7') in 0.023682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.913602 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Models/Scene/CollisionMesh.fbx
+  artifactKey: Guid(da7f3e0f6f45ecf4d90c4298fe130122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Models/Scene/CollisionMesh.fbx using Guid(da7f3e0f6f45ecf4d90c4298fe130122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0b8a5aba81e5923a09ba95a042dd30') in 1.499017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Textures/Effects/CrateSplinter.tga
+  artifactKey: Guid(ced8a57b5f6f3114a8c99c7052f63466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Textures/Effects/CrateSplinter.tga using Guid(ced8a57b5f6f3114a8c99c7052f63466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd84da72d64b50ab42198ecb56343934') in 0.062841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/FirstPerson/FirstPersonOpenDoorInteractPreset.asset
+  artifactKey: Guid(7e81d5c689f796346b5a374fbd39ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/FirstPerson/FirstPersonOpenDoorInteractPreset.asset using Guid(7e81d5c689f796346b5a374fbd39ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196a0dc0372db3f3cf64172ae0e33250') in 0.057439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerOpenDoorInteractPreset.asset
+  artifactKey: Guid(2ef2bbf233e336c4c910fc1d1faac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerOpenDoorInteractPreset.asset using Guid(2ef2bbf233e336c4c910fc1d1faac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6c9ba9b8579f65f29aec928cbe764d') in 0.034255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerWalkDoorInteractPreset.asset
+  artifactKey: Guid(a8a3ddb5837b5d54797bf3db6969210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerWalkDoorInteractPreset.asset using Guid(a8a3ddb5837b5d54797bf3db6969210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dab32bc501893382e3ff7ef62823c71') in 0.028415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerChestInteractPreset.asset
+  artifactKey: Guid(c096c15308d0d96419f93f79da5bcd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerChestInteractPreset.asset using Guid(c096c15308d0d96419f93f79da5bcd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6997766a9bf51b463878dbea1ac9fb') in 0.030166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerButtonInteractPreset.asset
+  artifactKey: Guid(f03d4fe87e050664ab54b14242c0b1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateCharacterController/Demo/Presets/Character/ConnectedControllerButtonInteractPreset.asset using Guid(f03d4fe87e050664ab54b14242c0b1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec04f4d5963ef55e4dd349ff932e5c8d') in 0.035995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.099372 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Interfaces
+  artifactKey: Guid(38ae0eecc6fe5d340b82bb221198aa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Interfaces using Guid(38ae0eecc6fe5d340b82bb221198aa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3376753d693fae5638b25bdc81207693') in 0.017654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.513536 seconds.
+  path: Assets/LYNC-OKX-SDK/LYNC-OKX-Plugin.dll
+  artifactKey: Guid(1d1c45f56397d4b63a4c60142650af1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/LYNC-OKX-Plugin.dll using Guid(1d1c45f56397d4b63a4c60142650af1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597f99335c282428adb38b2bc088cca6') in 0.031234 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 66.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (22.9 KB). Loaded Objects now: 4686.
+Memory consumption went from 89.7 MB to 89.7 MB.
+Total: 11.891300 ms (FindLiveObjects: 0.956300 ms CreateObjectMapping: 0.738900 ms MarkObjects: 10.129600 ms  DeleteObjects: 0.064000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018864 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4797ms)
+		BeginReloadAssembly (621ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (181ms)
+		EndReloadAssembly (3712ms)
+			LoadAssemblies (416ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1271ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (212ms)
+			SetupLoadedEditorAssemblies (1607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (327ms)
+				ProcessInitializeOnLoadAttributes (1012ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (0 B). Loaded Objects now: 4689.
+Memory consumption went from 171.7 MB to 171.7 MB.
+Total: 13.300300 ms (FindLiveObjects: 1.165500 ms CreateObjectMapping: 2.266700 ms MarkObjects: 9.820600 ms  DeleteObjects: 0.043900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.359 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3361ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2828ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (810ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (1353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (888ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 40.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (0 B). Loaded Objects now: 4693.
+Memory consumption went from 171.7 MB to 171.7 MB.
+Total: 20.280600 ms (FindLiveObjects: 1.700100 ms CreateObjectMapping: 0.969600 ms MarkObjects: 17.435700 ms  DeleteObjects: 0.168000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 454.212971 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity using Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e875c89b78490bb32a0ad8e08535df09') in 0.033105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.668502 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity using Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcc4a7ab7dd45c184ca5e766f4c921e') in 0.005368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.255827 seconds.
+  path: Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity
+  artifactKey: Guid(1382d57a08a6d1546aec02771ce2a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity using Guid(1382d57a08a6d1546aec02771ce2a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9e2368700f0a8b60c83ef281b6f1ad') in 0.019888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.763361 seconds.
+  path: Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Status (1).prefab
+  artifactKey: Guid(35ee356e8856d884fbac11423e1f0934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Status (1).prefab using Guid(35ee356e8856d884fbac11423e1f0934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4ffa04b57122d7f32c22ec16ddc96f') in 0.079565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.736326 seconds.
+  path: Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity
+  artifactKey: Guid(1382d57a08a6d1546aec02771ce2a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity using Guid(1382d57a08a6d1546aec02771ce2a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dd229bf6527c0477bda2fa353923de') in 0.005100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.827891 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity
+  artifactKey: Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity using Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b67013369845c8735e6dcca9c007fb9') in 0.007031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.851375 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity
+  artifactKey: Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity using Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fb6e30ae4940ca2ce84ec8aadb8f4f') in 0.005284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.006308 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity
+  artifactKey: Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity using Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905b68fb321ec75db4a52c0b3c4cc871') in 0.005091 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032802 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.245 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4248ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (3681ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1153ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (230ms)
+			SetupLoadedEditorAssemblies (1737ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (332ms)
+				ProcessInitializeOnLoadAttributes (1102ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (0 B). Loaded Objects now: 4699.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 10.383500 ms (FindLiveObjects: 1.070800 ms CreateObjectMapping: 0.648300 ms MarkObjects: 8.505200 ms  DeleteObjects: 0.151100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019460 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3652ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (3102ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (931ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (235ms)
+			SetupLoadedEditorAssemblies (1455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (341ms)
+				ProcessInitializeOnLoadAttributes (920ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (1.0 KB). Loaded Objects now: 4703.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 5.961300 ms (FindLiveObjects: 0.448400 ms CreateObjectMapping: 0.239400 ms MarkObjects: 5.219300 ms  DeleteObjects: 0.052300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.854437 seconds.
+  path: Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity
+  artifactKey: Guid(1382d57a08a6d1546aec02771ce2a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity using Guid(1382d57a08a6d1546aec02771ce2a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d61d64abcdcdb33870d3b2c15025679') in 0.016900 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3067ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2540ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (820ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (1141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (251ms)
+				ProcessInitializeOnLoadAttributes (750ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (1.0 KB). Loaded Objects now: 4707.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 12.466900 ms (FindLiveObjects: 1.071000 ms CreateObjectMapping: 1.368600 ms MarkObjects: 9.978100 ms  DeleteObjects: 0.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90.643378 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity using Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f06e15279b99c8dc00de6a0a572dbf') in 0.016398 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022485 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5334ms)
+		BeginReloadAssembly (359ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (4694ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1400ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (318ms)
+			SetupLoadedEditorAssemblies (2288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (84ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (444ms)
+				ProcessInitializeOnLoadAttributes (1474ms)
+				ProcessInitializeOnLoadMethodAttributes (236ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (0 B). Loaded Objects now: 4711.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 16.785300 ms (FindLiveObjects: 2.914000 ms CreateObjectMapping: 1.371200 ms MarkObjects: 12.377700 ms  DeleteObjects: 0.117900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3184ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2683ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (786ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (0 B). Loaded Objects now: 4715.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 12.571200 ms (FindLiveObjects: 0.663800 ms CreateObjectMapping: 0.739000 ms MarkObjects: 11.069800 ms  DeleteObjects: 0.094800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3133ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2611ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (718ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (174ms)
+			SetupLoadedEditorAssemblies (1294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (816ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (0 B). Loaded Objects now: 4719.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 13.236400 ms (FindLiveObjects: 1.199300 ms CreateObjectMapping: 1.119700 ms MarkObjects: 10.864100 ms  DeleteObjects: 0.048900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Client Project Demo\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4969ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (4429ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (785ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (189ms)
+			SetupLoadedEditorAssemblies (2937ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (203ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (478ms)
+				ProcessInitializeOnLoadAttributes (2035ms)
+				ProcessInitializeOnLoadMethodAttributes (181ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 27.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4139 Unused Serialized files (Serialized files now loaded: 0)
+JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002ac] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:1817 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs:429 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1240 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in /root/repo/Src/Newtonsoft.Json/JsonReader.cs:1197 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in /root/repo/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:202 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00046] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:904 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonSerializer.cs:883 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:831 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:787 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in /root/repo/Src/Newtonsoft.Json/JsonConvert.cs:720 
+  at LYNCUpdateChecker.LYNCUpdateChecker+<>c__DisplayClass20_0.<FetchVersionFromServer>b__0 (UnityEngine.AsyncOperation result) [0x0001f] in <e78c7ee9865b466aa7766050142f7598>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x0000f] in <4746c126b0b54f3b834845974d1a9190>:0 
+
+(Filename: /root/repo/Src/Newtonsoft.Json/JsonTextReader.cs Line: 1817)
+
+Unloading 31 unused Assets / (1.1 KB). Loaded Objects now: 4723.
+Memory consumption went from 170.1 MB to 170.1 MB.
+Total: 14.124800 ms (FindLiveObjects: 1.093400 ms CreateObjectMapping: 1.377400 ms MarkObjects: 11.503600 ms  DeleteObjects: 0.145300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 33.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (21.9 KB). Loaded Objects now: 4723.
+Memory consumption went from 88.0 MB to 88.0 MB.
+Total: 7.275100 ms (FindLiveObjects: 0.799300 ms CreateObjectMapping: 0.541800 ms MarkObjects: 5.882800 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (21.9 KB). Loaded Objects now: 4723.
+Memory consumption went from 88.0 MB to 88.0 MB.
+Total: 8.528400 ms (FindLiveObjects: 0.459200 ms CreateObjectMapping: 0.415000 ms MarkObjects: 7.608800 ms  DeleteObjects: 0.043400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (21.9 KB). Loaded Objects now: 4723.
+Memory consumption went from 88.0 MB to 88.0 MB.
+Total: 10.027200 ms (FindLiveObjects: 0.702400 ms CreateObjectMapping: 0.506900 ms MarkObjects: 8.752000 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3101.641726 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/ConnectWallet.unity using Guid(5bd7a87f5827542d0a59751cce373afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746eaf39679656f3286a779a0f51a60d') in 0.271400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.712988 seconds.
+  path: Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity
+  artifactKey: Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK/Scenes/FetchWallet.unity using Guid(f55c303ee8dc74a38a7850ef357c7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949bdd531d50f7e8001c97e3c7c49875') in 0.022346 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 75.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (21.9 KB). Loaded Objects now: 4723.
+Memory consumption went from 88.0 MB to 88.0 MB.
+Total: 61.620000 ms (FindLiveObjects: 0.603100 ms CreateObjectMapping: 19.676300 ms MarkObjects: 41.221600 ms  DeleteObjects: 0.115400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 820.550625 seconds.
+  path: Assets/LYNC-OKX-SDK
+  artifactKey: Guid(bdce8bac14af740919124df3853a17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-OKX-SDK using Guid(bdce8bac14af740919124df3853a17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7042ec693a94b9959042290b52ba79') in 0.033196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.883230 seconds.
+  path: Assets/Slide 16_9 - 13.png
+  artifactKey: Guid(73630e2fc2fe28f4d9ab87c2c35cefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 16_9 - 13.png using Guid(73630e2fc2fe28f4d9ab87c2c35cefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+ -> (artifact id: '4dcfc1c5b8b98310be6bf8f91c77a399') in 3.382009 seconds 
